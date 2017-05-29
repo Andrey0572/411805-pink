@@ -2,11 +2,161 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Пинк</title>
+    <title>PINK</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">Продвинутый HTML и CSS</a>».</p>
-
-  </body>
+    <header class="page‐header">
+      <h1 class="page‐header__title">PINK</h1> <!‐‐ скрыт ‐‐>
+      <div class="page‐header__logo">
+        <img src="http://placehold.it/150x100" alt="PINK">
+      </div>
+      <nav class="main‐nav"> <!‐‐ main‐nav‐‐open — для открытого состояния меню ‐‐>
+        <span class="main‐nav__toggler"><span></span></span>
+        <div class="main‐nav__wrapper">
+          <ul class="main‐nav__list">
+            <li class="main‐nav__item main‐nav__item‐‐active"><a>ГЛАВНАЯ</a></li>
+            <li class="main‐nav__item"><a href="photo.html">ФОТОГРАФИИ</a></li>
+            <li class="main‐nav__item"><a href="">КОНКУРС</a></li>
+            <li class="main‐nav__item"><a href="">HTML ACADEMY</a></li>
+          </ul>
+          <div class="main‐nav__user">
+            <a class="main‐nav__login" href="" title="Корзина">Корзина</a>
+          </div>
+        </div>
+      </nav>
+      <section class="infro">
+        <header class="infro_header">
+          <h2 class="infro_title">Взгляните на жизнь иначе!</h2><!--скрыть-->
+          <div class="info_header-img">
+            <img src="http://placehold.it/150x100">
+          </div>
+        </header>
+        <input class="infro_buttom" type="submit" value="СКАЧАТЬ ПРИЛОЖЕНИЕ">
+        <article class="infro-inne">
+          <div class="infro_logotyp">
+            <img class="infro_logotyp-pict" src="http://placehold.it/30x20">
+            <img class="infro_logotyp-pict"src="http://placehold.it/30x20">
+            <img class="infro_logotyp-pict"src="http://placehold.it/30x20">
+          </div>
+      </article>
+        <p class="infro-descr">Доступно для iPhone, iPad, Android,<br>Windows Phone, OSX, Windows8</p>
+      </section>
+      <section class="info">
+        <div class="info__wrappere">
+          <h2 class="info__title">Информация о продукте</h2> <!--скрыт!-->
+          <p class="info__title-description">Устали от серости<br> мегаполиса?<br>
+          Нам есть, что вам <br>предложить!</p>
+        <div class="info__list">
+          <article class="info__item">
+            <h3 class="info__iten-title">Поднимат настроение</h3>
+            <div class="info__iten-text">
+              <p>Приложение позволит вам победить<br> осеннюю хандруи депрессию<br> буквально в несколько кликов!</p>
+            </div>
+          </article>
+          <article class="info__item">
+            <h3 class="info__iten-title">Меняет мир вокруг</h3>
+            <div class="info__iten-text">
+              <p>Сделайте снимок и украсьте его<br> смайликом или текстовой подписью,<br> чтобы усилить эффект</p>
+            </div>
+          </article>
+          <article class="info__item">
+            <h3 class="info__iten-title">Заводит новых друзей</h3>
+            <div class="info__iten-text">
+              <p>Ставьте лайки, комментируйте, делитесь<br> фотографиями с друзьями и заводите<br> новых</p>
+            </div>
+          </article>
+        </div>
+        <div class="info__img">
+          <img src="http://placehold.it/150x100">
+        </div>
+      </div>
+      </section>
+      <section class="review">
+        <div class="reviews__wrapper">
+          <h2 class="reviews__title">Отзывы о нас</h2>
+        <div class="reviews__slider‐wrapper slider">
+          <div class="reviews__list‐wrapper slider__wrapper">
+            <div class="reviews__list slider__inner">
+              <blockquote class="reviews__item slider__item">
+                <div class="reviews__auhor">
+                <h3 class="reviews__auhor‐name">Николай Петров</h3>
+                <p>"Это приложение перевернуло мой мир<br>и позволило по-новому взглянуть на<br>привычные серые вещи! А еще я<br>познакомился со своей будущей женой<br>в комментариях к выложенной <br>фотографии!"</p>
+                </div>
+              </blockquote>
+              <blockquote class="reviews__item slider__item">
+                <div class="reviews__auhor">
+                <h3 class="reviews__auhor‐name">Николай Петров</h3>
+                <p>"Это приложение перевернуло мой мир<br>и позволило по-новому взглянуть на<br>привычные серые вещи! А еще я<br>познакомился со своей будущей женой<br>в комментариях к выложенной <br>фотографии!"</p>
+                </div>
+              </blockquote>
+              <blockquote class="reviews__item slider__item">
+                <div class="reviews__auhor">
+                <h3 class="reviews__auhor‐name">Николай Петров</h3>
+                <p>"Это приложение перевернуло мой мир<br>и позволило по-новому взглянуть на<br>привычные серые вещи! А еще я<br>познакомился со своей будущей женой<br>в комментариях к выложенной <br>фотографии!"</p>
+                </div>
+              </blockquote>
+            </div>
+          </div>
+          <button class="reviews__prev" type="button">Предыдущий отзыв</button>
+          <button class="reviews__next" type="button">Следующий отзыв</button>
+         </div>
+       </div>
+      </section>
+      <section class="price">
+        <div class="price__wrapper slider">
+          <h2 class="price__title">Ценовые предложения</h2> <!‐‐скрыт!‐‐>
+          <div class="price__list‐wrapper slider__wrapper">
+            <ol class="price__list slider__inner">
+              <li class="price__item price__item‐‐standart slider__item">
+                <h3 class="price__item-title">СТАНДАРТ</h3>
+                <p class="price__iten-price">3.99 USD</p>
+              <div class="price__iten-element">
+                <input type="checkbox" id="check1" checked><label for="check1">РОЗОВЫЙ ФИЛЬТР</label><br>
+                <input type="checkbox" id="check2" checked><label for="check2">СМАЙЛИКИ</label><br>
+                <input type="checkbox" id="check3" ><label for="check3">КОММЕНТАРИИ</label><br>
+              </div>
+              </li>
+              <li class="price__item price__item‐‐anlim slider__item">
+                <h3 class="price__item-title">АНЛИМ</h3>
+                <p class="price__iten-price">9.99 USD</p>
+              <div class="price__iten-element">
+                <input type="checkbox" id="check1" checked><label for="check1">РОЗОВЫЙ ФИЛЬТР</label><br>
+                <input type="checkbox" id="check2" checked><label for="check2">СМАЙЛИКИ</label><br>
+                <input type="checkbox" id="check3" ><label for="check3">КОММЕНТАРИИ</label><br>
+              </div>
+              </li>
+              <li class="price__item price__item‐‐hit slider__item">
+                <h3 class="price__iten-title">ХИТ</h3>
+                <p class="price__iten-price">3.99 USD</p>
+              <div class="price__iten-element">
+                <input type="checkbox" id="check1" checked><label for="check1">РОЗОВЫЙ ФИЛЬТР</label><br>
+                <input type="checkbox" id="check2" checked><label for="check2">СМАЙЛИКИ</label><br>
+                <input type="checkbox" id="check3" ><label for="check3">КОММЕНТАРИИ</label><br>
+              </div>
+              </li>
+            </ol>
+          </div>
+          <div class="price__pagination slider__pagination">
+            <span class="slider__pagination‐item slider__pagination‐item‐‐active"></span>
+            <span class="slider__pagination‐item"></span>
+            <span class="slider__pagination‐item"></span>
+          </div>
+         </div>
+       </section>
+       <footer class="page‐footer">
+         <div class="page‐footer__wrapper">
+           <p class="page‐footer__contacts">
+           Остались вопросы?<br>Свяжитесь с нами!<br>
+           <b>Звоните:</b><br>
+            +7 (812) 555‐66‐66<br>
+           <b>Пишите:</b><br>
+             mail@htmlacademy.ru<br>
+           <b>Приезжайте в гости:</b><br>
+             ул.Большая<br>Конюшенная,19/8</p>
+        <div class="page‐footer__map">
+          <img src="http://placehold.it/150x100"><!--временно до карты-->
+          <div class="page‐footer__map-marcer">
+          </div>
+       </div>
+      </body>
 </html>
