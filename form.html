@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>PINK</title>
+  </head>
+  <body>
+    <header class="page‐header">
+      <h1 class="page‐header__title">PINK</h1> <!‐‐ скрыт ‐‐>
+      <div class="page‐header__logo">
+        <img src="http://placehold.it/150x100" alt="PINK">
+      </div>
+      <nav class="main‐nav"> <!‐‐ main‐nav‐‐open — для открытого состояния меню ‐‐>
+        <span class="main‐nav__toggler"><span></span></span>
+        <div class="main‐nav__wrapper">
+          <ul class="main‐nav__list">
+            <li class="main‐nav__item main‐nav__item‐‐active"><a>ГЛАВНАЯ</a></li>
+            <li class="main‐nav__item"><a href="photo.html">ФОТОГРАФИИ</a></li>
+            <li class="main‐nav__item"><a href="">КОНКУРС</a></li>
+            <li class="main‐nav__item"><a href="">HTML ACADEMY</a></li>
+          </ul>
+          <div class="main‐nav__user">
+            <a class="main‐nav__login" href="" title="Корзина">Корзина</a>
+          </div>
+        </div>
+      </nav>
+      <man class="page-forma">
+        <div class="page-forma__wrapper">
+          <h1 class="page-forma__title">Конкурс на самое<br>безбашенное<br>путешествие с Пинк</h1>
+          <div class="page-forma__title-description">
+            <p>Поделитесь своей историей и получите<br>шанс выиграть ценный приз - 1000<br>миль на вашу бонусную карту!</p>
+          </div>
+        </div>
+        <form class="location__contact‐form" action="https://echo.htmlacademy.ru/" method="GET">
+          <div class="location__contact‐form‐inner">
+            <label class="field‐text location__contact‐field">ФАМИЛИЯ:<br>
+              <input class="field‐text__input" type="text" placeholder="Укажите фамилию*" name="name"required>
+            </label><br>
+            <label class="field‐text location__contact‐field">ИМЯ:<br>
+              <input class="field‐text__input" type="text" placeholder="Введите ваше имя*" name="name"required>
+            </label><br>
+            <label class="field‐text location__contact‐field">ОТЧЕСТВО:<br>
+              <input class="field‐text__input" type="text" placeholder="Ну и отчество тоже" name="name">
+            </label>
+          </div>
+          <p class="location__contact‐form title-description">ВАШИ БЕЗБАШЕННЫЕ<br>ДОСТИЖЕНИЯ В ПУТЕШЕСТВИИ</p>
+            <div class="location__contact‐form‐checkbox">
+              <input class="field‐checkbox"type="checkbox"name="selfie"id="selfie"checked>
+                <label class="field‐checkbox location__contact‐field" for="selfie">Сделал селфи с акулой
+                </label><br>
+                <input class="field‐checkbox"type="checkbox"name="beach"id="beach"value="beach"checked>
+                  <label class="field‐checkbox location__contact‐field"for="beach">Обгорел на пляже
+                  </label><br>
+                  <input class="field‐checkbox"type="checkbox" name="saw" id="saw">
+                    <label class="field‐checkbox location__contact‐field"for="saw">Видел Чака Норриса
+                    </label><br>
+                    <input class="field‐checkbox"type="checkbox" name="souvenir" id="souvenir">
+                      <label class="field‐checkbox location__contact‐field"for="souvenir">Накупил сувениров
+                      </label><br>
+                      <input class="field‐checkbox"type="checkbox" name="tower" id="tower" checked>
+                        <label class="field‐checkbox location__contact‐field"for="tower">Удержал башню
+                        </label><br>
+                        <input class="field‐checkbox"type="checkbox" name="hotel" id="hotel">
+                          <label class="field‐checkbox location__contact‐field"for="hotel">Разгромил отель
+                          </label><br>
+            </div>
+            <div class="location__contact‐form‐inner">
+              <label class="field‐phone location__contact‐field"for="tel">НОМЕР ТЕЛЕФОНА:<br>
+                <input class="field‐phone__input" type="tel" placeholder="Номер,пожалуйста" name="tel">
+              </label><br>
+              <label class="field‐email location__contact‐field" for="email">АДРЕС ПОЧТЫ:<br>
+                <input class="field‐email__input" type="email" placeholder="Введите почту*" name="email"required>
+              </label><br>
+            </div>
+            <p class="location__contact‐form title-description">С КАКИМ ПРИЛОЖЕНИЕМ<br>ПУТЕШЕСТВОВАЛИ?</p>
+              <div class="location__contact‐form‐radio">
+                <input class="field‐radio"type="radio"name="iOS"id="iOS"checked>
+                  <label class="field‐radio location__contact‐field" for="iOS">Pink для iOS
+                  </label><br>
+                  <input class="field‐radio"type="radio"name="Android"id="Android">
+                    <label class="field‐radio location__contact‐field" for="Android">Pink на Android
+                    </label><br>
+                    <input class="field‐radio"type="radio"name="Phone"id="Phone">
+                      <label class="field‐radio location__contact‐field" for="Phone">Windows Phone
+                      </label><br>
+               </div>
+               <p class="location__contact‐form title-description">ОПИШИТЕ СВОИ ЭМОЦИИ</p>
+               <div class="location__contact‐form‐inner">
+                 <label class="field‐text location__contact‐field location__contact‐field‐‐wide"for="message">
+                   <textarea class="field‐text__input" placeholder="Можно прямо в красках,не стесняясь в выражениях" name="message"></textarea>
+                 </label>
+               </div>
+               <div class="field‐action location__contact‐field location__contact‐field‐‐wide">
+                 <button class="field‐action__btn btn">ОТПРАВИТЬ ФОРМУ</button><br>
+                   <small class="location__contact‐form"><sup>*</sup> — ОБЯЗАТЕЛЬНЫЕ ПОЛЯ</small>
+               </div>
+            </form>
+          </man>
+            <footer class="page‐footer">
+              <div class="page‐footer__wrapper">
+                <div class="page‐footer__logo">
+                  <a href="index.html"><img src="http://placehold.it/150x100"></a>
+                </div>
+                <p class="page‐footer__social">
+                  <span class="social‐links">
+                    <a class="social‐link social‐link‐‐tw" href="https://www.twitch.tv/">Мы в Твиттере</a>
+                    <a class="social‐link social‐link‐‐fb" href="https://www.facebook.com/htmlacademy">Мы в Фейсбуке</a>
+                    <a class="social‐link social‐link‐‐yutub" href="https://www.youtube.com">Мы в Ютубе</a>
+                  </span>
+                </p>
+                <p class="page‐footer__copyright">
+                Разработано:
+                <a class="btn btn‐‐invert page‐footer__copyright‐link" href="https://htmlacademy.ru/intensive/adaptive"></a>
+                </p>
+            </footer>
+            <div class="application__submitted-popap">
+              <h2 class="application__submitted-popap--text">Ваша заявка отправлена</h2>
+                <p class="application__submitted-popap text-description">Спасибоза ваше участие,ваша заявка<br>уже поступила к нам. В ближайшее<br>время мы рассмотримее и<br>оповестим вас.</p>
+                  <button class="application__submitted-popap__btn btn">ЗАКРЫТЬ ОКНО</button>
+            </div>
+            <div class="renouncement__popap">
+              <h2 class="renouncement__popap--text">Что-то пошло не так!</h2>
+                <p class="renouncement__popap text-description">Проверте поля,выделенные красным<br>скорее всего вы забыли их заполнить</p>
+                  <button class="renouncement__submitted-popap__btn btn">OK</button>
+            </div>
+          </body>
+        </html>
