@@ -2,39 +2,48 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="fonts/opensansbold.woff">
+    <link rel="stylesheet" href="fonts/opensanslight.woff">
+    <link rel="stylesheet" href="fonts/opensans.woff">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/outlines.css">
+    <link href="css/style.css" rel="stylesheet">
     <title>PINK</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
   </head>
   <body>
     <header class="page‐header">
       <h1 class="page‐header__title">PINK</h1> <!‐‐ скрыт ‐‐>
       <div class="page‐header__logo">
-        <img src="http://placehold.it/150x100" alt="PINK">
+        <img alt="logo" src="img/logo-pink-white-mobile.svg">
       </div>
       <nav class="main‐nav"> <!‐‐ main‐nav‐‐open — для открытого состояния меню ‐‐>
         <span class="main‐nav__toggler"><span></span></span>
         <div class="main‐nav__wrapper">
           <ul class="main‐nav__list">
-            <li class="main‐nav__item main‐nav__item‐‐active"><a>ГЛАВНАЯ</a></li>
-            <li class="main‐nav__item"><a href="photo.html">ФОТОГРАФИИ</a></li>
-            <li class="main‐nav__item"><a href="">КОНКУРС</a></li>
-            <li class="main‐nav__item"><a href="">HTML ACADEMY</a></li>
+            <li class="main‐nav__items main‐nav__item‐‐active"><a class="main‐nav__items-link">ГЛАВНАЯ</a></li>
+            <li class="main‐nav__items"><a class="main‐nav__items-link" href="photo.html">ФОТОГРАФИИ</a></li>
+            <li class="main‐nav__items"><a class="main‐nav__items-link" href="form.html">КОНКУРС</a></li>
+            <li class="main‐nav__items"><a class="main‐nav__items-link" href="">HTML ACADEMY</a></li>
           </ul>
-         </div>
-      </nav>
-      <section class="infro">
-        <div class="infro_header">
-          <h2 class="infro_title">Взгляните на жизнь иначе!</h2><!--скрыть-->
-          <div class="info_header-img">
-            <img src="http://placehold.it/150x100">
+          </div>
+       </nav>
+     </header>
+      <section class="intro">
+        <div class="intro_blog">
+          <h2 class="intro_title">Взгляните на жизнь иначе!</h2><!--скрыть-->
+            <img class="intro_header-mobili--img">
+            <div class="intro_blog-mobili">
           </div>
         </div>
-        <a class="infro_buttom" type="submit" value="СКАЧАТЬ ПРИЛОЖЕНИЕ"></a>
-        <div class="infro-inne">
-          <a class="infro_logotyp-pict" href="#"><img  src="http://placehold.it/30x20"></a>
-          <a class="infro_logotyp-pict" href="#"><img src="http://placehold.it/30x20"></a>
-          <a class="infro_logotyp-pict" href="#"><img src="http://placehold.it/30x20"></a>
+        <a class="intro_link" href="#">СКАЧАТЬ ПРИЛОЖЕНИЕ</a>
+        <div class="intro-inne">
+          <a class="intro_logotyp-pict" href="#"><img  src="img/logo-apple.svg"></a>
+          <a class="intro_logotyp-pict" href="#"><img src="img/logo-android.svg"></a>
+          <a class="intro_logotyp-pict" href="#"><img src="img/logo-microsoft.svg"></a>
         </div>
-        <p class="infro-descr">Доступно для iPhone, iPad, Android,<br>Windows Phone, OSX, Windows8</p>
+        <p class="intro-descr">Доступно для iPhone, iPad, Android,Windows Phone, OSX, Windows8</p>
       </section>
       <section class="info">
         <div class="info__wrappere">
@@ -42,27 +51,32 @@
           <p class="info__title-description">Устали от серости мегаполиса?<br>Нам есть, что вам предложить!</p>
         <div class="info__list">
           <article class="info__item">
-            <h3 class="info__iten-title">Поднимат настроение</h3>
-            <div class="info__iten-text">
-              <p>Приложение позволит вам победить осеннюю хандруи депрессию буквально в несколько кликов!</p>
+            <h3 class="info__item-title">Поднимат настроение</h3>
+            <div class="info__item-text">
+              <p class="info__item-text--element">Приложение позволит вам победить осеннюю хандруи депрессию буквально в несколько кликов!</p>
             </div>
           </article>
           <article class="info__item">
-            <h3 class="info__iten-title">Меняет мир вокруг</h3>
-            <div class="info__iten-text">
-              <p>Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+            <h3 class="info__item-title">Меняет мир вокруг</h3>
+            <div class="info__item-text">
+              <p class="info__item-text--element">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
             </div>
           </article>
           <article class="info__item">
-            <h3 class="info__iten-title">Заводит новых друзей</h3>
-            <div class="info__iten-text">
-              <p>Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
+            <h3 class="info__item-title">Заводит новых друзей</h3>
+            <div class="info__item-text">
+              <p class="info__item-text--element">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
             </div>
           </article>
-        </div>
         <div class="info__img">
-          <img src="http://placehold.it/150x100">
+          <img src="img/iphone-screen-mobile@1x.png">
         </div>
+      </div>
+      <div class="info__diagram">
+        <h3 class="info__diagram-text">Эффект на 24 часа!</h3>
+        <p class="info__diagram-text--element">Британские ученные провели исследования и доказали, что положительный эффект от использования приложения длиться целые сутки!</p>
+          <a class="info__diagram-link" href="#">Узнать больше об исследовании</a>
+      </div>
       </div>
       </section>
       <section class="review">
@@ -74,18 +88,21 @@
               <blockquote class="reviews__item slider__item">
                 <div class="reviews__auhor">
                 <p class="reviews__auhor‐name">Николай Петров</p>
+                <span class="reviews__auhor‐name--element">25 лет,водитель трамвая</span>
                 <p class="reviews__auhor‐text">"Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!"</p>
                 </div>
               </blockquote>
               <blockquote class="reviews__item slider__item">
-                <div class="reviews__auhor">
+                <div class="reviews__auhor2">
                 <p class="reviews__auhor‐name">Николай Петров</p>
+                <span class="reviews__auhor‐name--element">25 лет,водитель трамвая</span>
                 <p class="reviews__auhor‐text">"Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!"</p>
                 </div>
               </blockquote>
               <blockquote class="reviews__item slider__item">
-                <div class="reviews__auhor">
+                <div class="reviews__auhor3">
                 <p class="reviews__auhor‐name">Николай Петров</p>
+                <span class="reviews__auhor‐name--element">25 лет,водитель трамвая</span>
                 <p class="reviews__auhor‐text">"Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!"</p>
                 </div>
               </blockquote>
@@ -93,24 +110,29 @@
           </div>
           <button class="reviews__prev" type="button">Предыдущий отзыв</button>
           <button class="reviews__next" type="button">Следующий отзыв</button>
-         </div>
-       </div>
+          </div>
+        </div>
       </section>
       <section class="price">
         <div class="price__wrapper slider">
           <h2 class="price__title">Ценовые предложения</h2> <!‐‐скрыт!‐‐>
           <div class="price__list‐wrapper slider__wrapper">
-            <ol class="price__list slider__inner">
-              <li class="price__item price__item‐‐standart slider__item">
+            <div class="price__list slider__inner">
+              <div class="price__list column-group">
+              <div class="price__item1 price__item‐‐standart">
+                <header class="price__item-inner">
                 <h3 class="price__item-title">СТАНДАРТ</h3>
                 <p class="price__item-price">3.99 USD</p>
+              </header>
               <ul class="price__item-element">
                 <li class="price__item-element--text">РОЗОВЫЙ ФИЛЬТР</li>
                 <li class="price__item-element--text">СМАЙЛИКИ</li>
                 <li class="price__item-element--text">КОММЕНТАРИИ</li>
               </ul>
-              </li>
-              <li class="price__item price__item‐‐anlim slider__item">
+              <div class="price__item-absolut">
+            </div>
+            </div>
+              <div class="price__item2 price__item‐‐anlim">
                 <h3 class="price__item-title">АНЛИМ</h3>
                 <p class="price__item-price">9.99 USD</p>
               <ul class="price__item-element">
@@ -118,39 +140,40 @@
                 <li class="price__item-element--text">СМАЙЛИКИ</li>
                 <li class="price__item-element--text">КОММЕНТАРИИ</li>
               </ul>
-              </li>
-              <li class="price__item price__item‐‐hit slider__item">
-                <h3 class="price__item-title">ХИТ</h3>
-                <p class="price__item-price">3.99 USD</p>
+            </div>
+              <div class="price__item3 price__item‐‐hit">
+                <h3 class="price__item-title">БАЗА</h3>
+                <p class="price__item-price">1.99 USD</p>
               <ul class="price__item-element">
                 <li class="price__item-element--text">РОЗОВЫЙ ФИЛЬТР</li>
                 <li class="price__item-element--text">СМАЙЛИКИ</li>
                 <li class="price__item-element--text">КОММЕНТАРИИ</li>
               </ul>
-              </li>
-            </ol>
+            </div>
+          </div>
+          </div>
           </div>
           <div class="price__pagination slider__pagination">
             <span class="slider__pagination‐item slider__pagination‐item‐‐active"></span>
             <span class="slider__pagination‐item"></span>
             <span class="slider__pagination‐item"></span>
           </div>
-         </div>
-       </section>
-       <footer class="page‐footer">
-         <div class="page‐footer__wrapper">
-           <p class="page‐footer__contacts">
-           Остались вопросы?Свяжитесь с нами!
-           <b>Звоните:</b>
-            +7 (812) 555‐66‐66
-           <b>Пишите:</b>
-             mail@htmlacademy.ru
-           <b>Приезжайте в гости:</b>
-             ул.Большая<br>Конюшенная,19/8
+          </div>
+        </section>
+        <footer class="page‐footer">
+          <div class="page‐footer__wrapper">
+            <p class="page‐footer__contacts">
+            Остались вопросы?Свяжитесь с нами!
+            <b>Звоните:</b>
+             +7 (812) 555‐66‐66
+            <b>Пишите:</b>
+              mail@htmlacademy.ru
+            <b>Приезжайте в гости:</b>
+              ул.Большая<br>Конюшенная,19/8
         <div class="page‐footer__map">
-          <img src="http://placehold.it/150x100"><!--временно до карты-->
+          <img src="img/bg-map-mobile@1x.png">
           <div class="page‐footer__map-marcer">
           </div>
-       </div>
+        </div>
       </body>
 </html>
